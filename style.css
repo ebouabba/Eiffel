@@ -22,7 +22,11 @@ body{
     font-size: 16px;
     font-weight: bold;
 }
-
+#buy ul{
+    list-style-position: inside;
+    list-style-type: square;
+    padding-left:  30px;
+}
 #buy1 form { 
     margin-top: 10px;
     color: #fcfcfc;
