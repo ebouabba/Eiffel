@@ -1,8 +1,8 @@
-body{
+body {
     background-color: #e0e0e0;
 }
 
-#buy{
+#buy {
     margin-top: 10px;
     border: solid #000000;
     padding: 10px 20px 10px 20px;
@@ -17,17 +17,38 @@ body{
     border: solid #000000;
 }
 
-#buy b{
+#buy b {
     color: #2493df;
     font-size: 16px;
     font-weight: bold;
 }
-#buy ul{
+
+#buy ul {
     list-style-position: inside;
     list-style-type: square;
-    padding-left:  30px;
+    padding-left: 30px;
 }
-#buy1 form { 
+
+#buy table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#buy th,
+td {
+    padding: 5px;
+    text-align: left;
+}
+
+#buy th {
+    background-color: rgb(51, 51, 177);
+    color: #e0e0e0;
+
+}
+
+#buy1 form {
     margin-top: 10px;
     color: #fcfcfc;
     background-color: black;
@@ -35,7 +56,7 @@ body{
 }
 
 footer {
-    color:#595959 ;
+    color: #595959;
     font-size: 14px;
     text-align: center;
 }
