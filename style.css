@@ -54,6 +54,18 @@ td {
     background-color: black;
     padding: 10px 20px 10px 20px;
 }
+input[type="number"] {
+    padding:2px;
+    text-align: center;
+    width:50px;
+} 
+input[type='button'] {
+    background-color: #2493df;
+    font-weight: bold;
+    text-decoration:solid;
+    width: 10%;
+    color: white;
+}
 
 footer {
     color: #595959;
